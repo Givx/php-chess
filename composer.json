@@ -33,7 +33,7 @@
     ],    
   "require": {
     "php": ">=8.1",
-    "givx/ml": "master",
+    "givx/ml": "dev-master",
     "splitbrain/php-cli": "^1.1",
     "imagine/imagine": "^1.2",
     "brick/math": "^0.9.3"
