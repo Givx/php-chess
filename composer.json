@@ -1,5 +1,5 @@
 {
-  "name": "chesslablab/php-chess",
+  "name": "givx/php-chess",
   "description": "A chess library for PHP.",
   "type": "library",
   "license": "GPL-3.0-only",
@@ -25,9 +25,15 @@
       "homepage": "https://github.com/chesslablab"
     }
   ],
+    "repositories": [
+        {
+            "url": "https://github.com/Givx/ML.git",
+            "type": "git"
+        }
+    ],    
   "require": {
     "php": ">=8.1",
-    "rubix/ml": "^1.1",
+    "givx/ml": "master",
     "splitbrain/php-cli": "^1.1",
     "imagine/imagine": "^1.2",
     "brick/math": "^0.9.3"
